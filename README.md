@@ -1,4 +1,4 @@
-# the-website-zara
+# zara
 creative project to create a website using the scss/sass preprocessor
 
 ![image](https://github.com/user-attachments/assets/f2b84f29-6caa-4f8f-a89a-a6cd38725da7)
