@@ -1,0 +1,11 @@
+.left-side .info {
+  top: 56px;
+}
+.left-side .info .product-info {
+  margin: 0;
+}
+.left-side .info .mask-block {
+  background-image: url("../images/slide2-left-image.svg");
+  background-position: top -108px left -125px;
+  margin-top: 12px;
+}/*# sourceMappingURL=style-slide2.css.map */

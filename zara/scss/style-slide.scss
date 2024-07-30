@@ -1,0 +1,98 @@
+@import "blocks/commens";
+@import "blocks/header";
+@import "blocks/footer";
+
+.left-side {
+  max-width: 400px;
+  max-height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 212px;
+  left: 280px;
+  cursor: pointer;
+}
+
+.left-side .left-image {
+  opacity: 80%;
+  position: relative;
+  z-index: -1;
+}
+
+.left-side .info {
+  position: absolute;
+  top: 130px;
+  left: 125px;
+  display: flex;
+  flex-direction: column;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  max-width: 150px;
+  width: 100%;
+  color: rgba(49, 49, 49, 1);
+}
+
+.left-side .info .product-info {
+  margin: 12px 0 0 108px;
+  width: 100%;
+}
+
+.left-side .info .product-info .name-product {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.left-side .info .mask-block {
+  border: 0.5px solid rgba(56, 56, 56, 1);
+  height: 150px;
+  background-image: url("../images/slide1-left-image.svg");
+  background-position: top -130px left -125px;
+}
+
+.logo {
+  position: absolute;
+  top: 452px;
+  left: 882px;
+}
+
+.right-side {
+  max-width: 960px; 
+  max-height: 1024px;
+  width: 100%; 
+  z-index: -1;
+}
+
+.pagination {
+  position: absolute;
+  top: 934px;
+  left: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 362px;
+}
+
+.pagination .page-lines {
+  display: flex;
+  gap: 30px;
+  align-items: baseline;
+}
+
+.pagination .page-lines .small-line,
+.pagination .page-lines .big-line {
+  cursor: pointer;
+}
+
+.pagination .page-lines .small-line {
+  height: 10px;
+  border: 1px solid rgba(56, 56, 56, 0.3);
+}
+
+.pagination .page-lines .big-line {
+  height: 30px;
+  border: 1px solid rgba(56, 56, 56, 1);
+}
+
+@media screen and (max-width: 480px) {
+  
+}

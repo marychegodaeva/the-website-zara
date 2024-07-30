@@ -1,0 +1,41 @@
+header {
+  max-width: 1720px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  position: absolute;
+
+  .cart-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    .lines {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+
+      .long-line {
+        border: 1px solid rgba(56, 56, 56, 1);
+        width: 120px;
+      }
+
+      .short-line {
+        border: 1px solid rgba(56, 56, 56, 1);
+        width: 20px;
+      }
+    }
+
+    .cart-list-number {
+      display: flex;
+      justify-content: space-between;
+      gap: 25px;
+
+      .cart-number {
+        font-weight: 800;
+      }
+    }
+  }
+}

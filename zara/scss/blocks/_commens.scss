@@ -1,0 +1,73 @@
+body {
+  max-width: 1920px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.5em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  position: relative;
+  color: rgba(56, 56, 56, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: rgba(56, 56, 56, 1);
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: -15px;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  .menu-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 618px;
+
+    .menu {
+      .burger-menu {
+
+        .menu-block {
+          max-width: 1920px;
+          width: 100%;
+          background: white;
+          height: 1024px;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          color: white;
+          font-size: 150px;
+          line-height: 225px;
+          letter-spacing: 0;
+          -webkit-text-stroke: 1px rgba(168, 168, 168, 1);
+        }
+
+        .menu-block,
+        input {
+          display: none;
+        }
+
+        label {
+          display: flex;
+          align-items: center;
+          gap: 40px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

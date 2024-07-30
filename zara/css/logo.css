@@ -1,0 +1,74 @@
+body {
+  max-width: 1920px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.5em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  position: relative;
+  color: rgb(56, 56, 56);
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+  position: relative;
+}
+a::after {
+  content: "";
+  position: absolute;
+  inset: -15px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .menu-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 618px;
+}
+header .menu-title .menu .burger-menu .menu-block {
+  max-width: 1920px;
+  width: 100%;
+  background: white;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: white;
+  font-size: 150px;
+  line-height: 225px;
+  letter-spacing: 0;
+  -webkit-text-stroke: 1px rgb(168, 168, 168);
+}
+header .menu-title .menu .burger-menu .menu-block,
+header .menu-title .menu .burger-menu input {
+  display: none;
+}
+header .menu-title .menu .burger-menu label {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.logo-block {
+  position: absolute;
+  top: 393px;
+  left: 841px;
+}
+
+.logo {
+  position: absolute;
+  top: 53px;
+  left: 38px;
+}/*# sourceMappingURL=logo.css.map */
