@@ -1,9 +1,9 @@
 # zara
-creative project to create a website using the scss/sass preprocessor
+creative project to create a website using the scss preprocessor
 
 ![image](https://github.com/user-attachments/assets/f2b84f29-6caa-4f8f-a89a-a6cd38725da7)
 
-A project developed as part of the development of a preprocessor based on a layout from Pixso. Presents its multi-page website.  It is made in HTML, CSS style sheets and the SCSS/SASS preprocessor were also used in the process. Flexbox technology is used. Header and footer are being created. 
+A project developed as part of the development of a preprocessor based on a layout from Pixso. Presents its multi-page website.  It is made in HTML, CSS style sheets and the SCSS preprocessor were also used in the process. Flexbox technology is used. Header and footer are being created. 
 A burger menu and an adaptive version are in development. 
 
 Contains the "header", "left-side", "right-side", "pagination" and "footer" blocks.
@@ -22,7 +22,7 @@ Contains the "header", "left-side", "right-side", "pagination" and "footer" bloc
 
 <hr>
 
-Проект, разработанный в рамках изучения препроцессора по макету из Pixso. Представляет собой многостраничный сайт.  Выполнен на языке HTML, также в процессе работы использовались таблицы стилей CSS и препроцессор SCSS/SASS. Использована технология flexbox. Созданы header и footer. 
+Проект, разработанный в рамках изучения препроцессора по макету из Pixso. Представляет собой многостраничный сайт.  Выполнен на языке HTML, также в процессе работы использовались таблицы стилей CSS и препроцессор SCSS. Использована технология flexbox. Созданы header и footer. 
 Бургер-меню и адаптивная версия в разработке. 
 Содержит блоки "header", "left-side", "right-side", "pagination" и "footer".
 
